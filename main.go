@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+	fmt.Println("Channel Patterns")
+
+	// Wait For Result Pattern
 	waitresult.WaitResult()
-	fmt.Println("Hello Channel Patterns")
 }
