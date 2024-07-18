@@ -1,4 +1,4 @@
-package waitresult
+package wait_result
 
 import (
 	"fmt"

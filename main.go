@@ -1,13 +1,16 @@
 package main
 
 import (
-	"fmt"
-	waitresult "go-channel-patterns/src/wait-result"
+	wait_task "go-channel-patterns/src/03-wait-for-task"
 )
 
 func main() {
-	fmt.Println("Channel Patterns")
-
 	// Wait For Result Pattern
-	waitresult.WaitResult()
+	// wait_result.WaitResult()
+
+	// Fan Out - In Pattern
+	// fan_out_in.FanOut()
+
+	// Fan Out - In Pattern
+	wait_task.WaitTask()
 }
