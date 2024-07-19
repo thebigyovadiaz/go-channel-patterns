@@ -1,7 +1,7 @@
 package main
 
 import (
-	wait_task "go-channel-patterns/src/03-wait-for-task"
+	cancellation "go-channel-patterns/src/05-cancellation"
 )
 
 func main() {
@@ -12,5 +12,11 @@ func main() {
 	// fan_out_in.FanOut()
 
 	// Fan Out - In Pattern
-	wait_task.WaitTask()
+	// wait_task.WaitTask()
+
+	// Drop Pattern
+	// drop.Drop()
+
+	// Cancellation Pattern
+	cancellation.Cancellation()
 }
