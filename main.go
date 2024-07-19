@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	cancellation "go-channel-patterns/src/05-cancellation"
 )
 
@@ -18,5 +19,8 @@ func main() {
 	// drop.Drop()
 
 	// Cancellation Pattern
-	cancellation.Cancellation()
+	// cancellation.Cancellation()
+	arr := []string{"Philippe IIV", "Philip XX", "Pope i", "Marcus xxVx", "Marcus x", "Pope L"}
+	result := cancellation.SortNameOrdinal(arr)
+	fmt.Println(result)
 }
