@@ -1,7 +1,7 @@
 package main
 
 import (
-	cancellation "go-channel-patterns/src/05-cancellation"
+	pooling "go-channel-patterns/src/07-pooling"
 )
 
 func main() {
@@ -18,5 +18,14 @@ func main() {
 	// drop.Drop()
 
 	// Cancellation Pattern
-	cancellation.Cancellation()
+	// cancellation.Cancellation()
+	/*arr := []string{"Philippe IIV", "Philip XX", "Pope i", "Marcus xxVx", "Marcus x", "Pope L"}
+	result := cancellation.SortNameOrdinal(arr)
+	fmt.Println(result)*/
+
+	// Bounded Work Pooling Pattern
+	// bounded_work_pooling.BoundedWorkPooling()
+
+	// Pooling Pattern
+	pooling.Pooling()
 }
